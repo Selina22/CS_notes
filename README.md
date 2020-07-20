@@ -10,4 +10,4 @@ The purposes of creating and updating this repository:
 
 # Table of Content
 
-1. LeetCode
+[1. LeetCode] (https://github.com/Selina22/CS_notes/blob/master/LeetCode_Notes/Table_of_content.md)
