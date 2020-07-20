@@ -10,4 +10,5 @@ The purposes of creating and updating this repository:
 
 # Table of Content
 
-[1. LeetCode](LeetCode_Notes/Table_of_content.md)
+1. [LeetCode](LeetCode_Notes/Table_of_content.md)
+2. and more...
