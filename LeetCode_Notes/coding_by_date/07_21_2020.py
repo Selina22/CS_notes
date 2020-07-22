@@ -63,3 +63,26 @@ class Solution:
             return nums[0]
         return max(Solution().rob_by_pos(nums, 0, total-1), Solution().rob_by_pos(nums, 1, total))
         
+
+'''
+1. Two Sum
+Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+Java HashMap
+'''
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        HashMap<Integer, Integer> numTable = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            if (numTable.containsKey(target - nums[i])) {
+                return new int[]{numTable.get(target - nums[i]), i};
+            } 
+            else {
+                numTable.put(nums[i], i);
+            }
+        }
+        return null;
+    }
+}
